@@ -1,0 +1,161 @@
+@charset "utf-8";
+/*
+두빗뚜와 따닷다
+*/
+body{
+    background-image: url('back.jpg');
+}
+.s1 {white-space:nowrap;}
+.img1 {
+    width: 17%;
+    position: absolute;
+    top: 400px;
+    left: 40px;
+   
+}
+.img2 {
+    width: 17%;
+    position: absolute;
+    top: 400px;
+    left: 1400px;
+   
+}
+
+.duruu{
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-110%)
+}
+.movingL {
+    animation-duration: 1s;
+    animation-name: slidein;
+  }
+  
+@keyframes slidein {
+    from {
+      margin-left: -100%;
+      
+    }
+  
+    to {
+      margin-left: 0%;
+      
+    }}
+.movingR {
+    animation-duration: 1s;
+    animation-name: slideinm;
+  }
+      
+@keyframes slideinm {
+    from {
+      margin-left: 100%;
+      
+    }
+      
+    to {
+      margin-left: 0%;
+          
+    }
+}
+@font-face {
+    font-family: 'Shilla_CultureB-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/Shilla_CultureB-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.korean{
+    font-family: 'Shilla_CultureB-Bold', sans-serif;
+    
+}
+.leftt{
+    width: 65%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-30%);
+}
+.eotk{
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,60%);
+}
+
+.eotk2{
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,470%);
+}
+.rightt{
+    width: 65%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,60%);
+}
+
+
+.a:hover {
+    color: skyblue;
+    transition-duration: 0.5s;
+}
+
+.retryy{
+    width:60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-20%,50%);
+}
+/* 정가운데 정렬 */
+.wpahr{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* 제목 전용 */
+.big{
+    font-size: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-130%);
+}
+/* 본문 전용 */
+.qhsans{
+    white-space : nowrap; 
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-200%)
+    
+    
+}
+.smalll{
+    font-size: 100px;
+}
+.small{
+    font-size: 70px;
+}
+.fade-in-box {
+    padding: 10px;
+    animation: fadein 2s;
+}
+@keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
